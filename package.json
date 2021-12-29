@@ -1,8 +1,8 @@
 {
-  "name": "RPC_BOT",
+  "name": "discord-rich-presence-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "config.js",
+  "description": "By ShreshthTiwari#6014",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +12,13 @@
   "dependencies": {
     "discord-rpc": "^3.1.4",
     "discord.js": "^12.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShreshthTiwari/discord-rich-presence-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShreshthTiwari/discord-rich-presence-bot/issues"
+  },
+  "homepage": "https://github.com/ShreshthTiwari/discord-rich-presence-bot#readme"
 }
