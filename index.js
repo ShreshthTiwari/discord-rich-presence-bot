@@ -4,13 +4,15 @@ const config = require("./config.json");
 
 DiscordRPC.register(config.CLIENT_ID);
 
+const TIME = Date.now();
+
 async function setActivity() {
   if (!RPC) return;
 
   RPC.setActivity({
     details: config.FIRST_LINE,
     state: config.SECOND_LINE,
-    startTimestamp: Date.now(),
+    startTimestamp: TIME,
     largeImageKey: config.IMAGE_NAME,
     largeImageText: config.IMAGE_TEXT,
     smallImageKey: config.IMAGE_NAME,
